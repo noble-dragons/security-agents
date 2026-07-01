@@ -2,7 +2,7 @@
 name: Checkmarx Remediation
 description: Enterprise Checkmarx security engineer — triages checkmarx.csv findings, proves exploitability, filters false positives, and produces minimal, tested secure fixes for Java/Spring.
 tools: ['search/codebase', 'search/usages', 'edit', 'runInTerminal', 'web/fetch']
-model: ['Claude Opus 4.5', 'GPT-5.2']
+model: ['Claude Sonnet 4.6', 'GPT Codex 5.3']
 argument-hint: "e.g. 'triage all High findings' or 'remediate SQL Injection in OrderRepository'"
 ---
 
